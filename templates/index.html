@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="title1">Bienvenido a Infolanding</h1>
+    <div class="wrapper">
+        <div class="informacion">
+            <div>
+                <!-- Insertar fotografia -->
+                <img src="../static/img/perro.jpg" alt="img-perfil" class="profile-img">
+            </div>
+            <h4>Información del perfil</h4>
+            <p class="nombre-apellidos">Usuario</p>
+            <p class="username">@usuario</p>
+            <h5>Vive en</h5>
+            <p class="direccion">Direcccion usuario</p>
+            <h5>Biografía</h5>
+            <p class="bio">Descripcion usuario</p>
+        </div>
+        <div class="estadisticas">
+            <h4>Estadisticas</h4>
+            <div>
+                <img src="../static/img/t_2.jpg" alt="">
+            </div>
+        </div>
+        <div class="comidas-favoritas">
+            <h4>Comidas favoritas</h4>
+            <div>
+                <img src="../static/img/perritocaliente.jpg" alt="img-perfil">
+            </div>
+            <a href="#">Ver todas</a>
+        </div>
+        <div class="ultimos-galardones">
+            <h4>Últimos galardones</h4>
+            <!-- insert gold medal image -->
+            <div>
+                <img src="../static/img/medal-gold.png" alt="img-perfil" class="galardon-img">
+                <p class="username">Galadon 1</p>
+            </div>
+            <div>
+                <img src="../static/img/medal-gold.png" alt="img-perfil" class="galardon-img">
+                <p class="username">Galadon 2</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}

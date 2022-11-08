@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400;800&display=swap');
+
+body {
+    /* background-image: url("../img/login-wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat; */
+    font-family: "IBM Plex Sans";
+}
+h4 {
+    font-family: "Plus Jakarta Sans";
+    text-align: center;
+    margin-bottom: 10px;
+}
+.navbar-brand {
+    font-family: "Plus Jakarta Sans";
+}
+.title1 {
+    font-family: "Plus Jakarta Sans";
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile-img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.galardon-img {
+    object-fit: cover;
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 35%;
+    margin-bottom: 15px;
+}
+.nombre-apellidos {
+    font-size: 20px;
+    text-align: center;
+}
+.username {
+    margin-top: -15px;
+    font-size: 15px;
+    text-align: center;
+    color: #6c757d;
+}
+.direccion {
+
+}
+.bio {
+
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+.informacion {
+    grid-column: 1;
+    grid-row: 1/2;
+    border: 1px #cccccc solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.estadisticas {
+    grid-column: 1;
+    grid-row: 2;
+    border: 1px #cccccc solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.comidas-favoritas {
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px #cccccc solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.ultimos-galardones {
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px #cccccc solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="../static/css/login.css">
+<title>Registrarse - TapasTop</title>
+<div class="login-page">
+    <h1>TapasTop</h1>
+    <div class="form">
+        <h2>Registro</h2>
+        <form class="login-form" action="{{url_for('register')}}" method="post">
+            <input type="text" name="name" placeholder="Nombre"/>
+            <input type="password" name="psw" placeholder="Contraseña"/>
+            <input type="password" name="pswCheck" placeholder="Repite la Contraseña"/>
+            <input type="text" name="email" placeholder="Email"/>
+            <button>crear cuenta</button>
+            <p class="err">{{ err }}</p>
+            <p class="message">¿Ya estás registrado? <a href="{{url_for('login')}}">Iniciar sesión</a></p>
+        </form>
+    </div>
+</div>
